@@ -63,6 +63,8 @@ public:
   /**
    * Add any helper methods you may need
    */
+  void CarveHorizSeam(int const* seam);
+  ImagePPM CarveVertSeam(int const* seam);
 
 private:
   int height_ = 0;

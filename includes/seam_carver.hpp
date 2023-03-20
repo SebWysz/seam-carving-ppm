@@ -111,6 +111,8 @@ public:
   /**
    * Add any helper methods you may need
    */
+  int** InitHorizMemo() const;
+  int** InitVertMemo() const;
 
 private:
   ImagePPM image_;
